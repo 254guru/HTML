@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Me - Developer & Explorer</title>
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,67 +16,115 @@
       padding: 2rem;
       color: #333;
     }
+
     .container {
       max-width: 800px;
       background: #fff;
       margin: auto;
       padding: 2.5rem;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     }
+
     h1 {
       color: #1e90ff;
       margin-bottom: 0.5rem;
     }
+
     h2 {
       margin-top: 2rem;
       color: #444;
     }
+
     p {
       line-height: 1.6;
     }
+
     ul {
       margin-top: 0.5rem;
       line-height: 1.6;
     }
+
+    .contact-icons {
+      margin-top: 1rem;
+      font-size: 1.8rem;
+    }
+
+    .contact-icons a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #1e90ff;
+      transition: color 0.3s;
+    }
+
+    .contact-icons a:hover {
+      color: #0072b1;
+    }
   </style>
 </head>
+
 <body>
   <div class="container">
     <h1>Hey, I'm a Builder at Heart</h1>
     <p>
-      I'm a full-stack developer driven by curiosity and creativity. I build tools that solve problems — whether that means scraping job market data, engineering AI-driven workflows, or designing interfaces that just make sense.
+      I'm <strong>Kevin Oluda</strong>, a full-stack developer driven by curiosity and creativity. I build tools that
+      solve problems — whether that means scraping job market data, engineering AI-driven workflows, or designing
+      interfaces that just make sense.
     </p>
 
     <h2>What I Do</h2>
     <p>
-      My main tech stack includes Python (Flask), JavaScript (React/Next.js, Node.js), and I specialize in intelligent automation and full-stack development.
+      My main tech stack includes Python (Flask), JavaScript (React/Next.js, Node.js), and I specialize in intelligent
+      automation and full-stack development.
     </p>
+    <p>Here are some key projects I've built:</p>
     <ul>
-      <li>🔍 Built a Job Market Intelligence Dashboard that scrapes and visualizes job data across regions.</li>
-      <li>💬 Developed a Chatbot that turns raw e-commerce data into answers using RAG and LangChain.</li>
-      <li>🧠 Created a Chrome extension that fills out job applications and generates custom proposals using AI.</li>
-      <li>🎙️ Made a YouTube Transcriber with Flask and AI speech recognition for content creators.</li>
+      <li><strong><a href="https://github.com/254guru/8020-Transcriber">YouTube Transcriber</a></strong>: A Flask-based
+        app that transcribes YouTube videos using AI-powered speech recognition.</li>
+      <li><strong><a href="https://github.com/254guru/job-market-dashboard">Job Market Intelligence
+            Dashboard</a></strong>: A data-driven job insights platform using web scraping, React/Next.js, and
+        Leaflet.js maps.</li>
+      <li><strong><a href="https://github.com/254guru/Fine-Tuning-Model">Fine-Tuning Model</a></strong>: A project that
+        explores the intricacies of fine-tuning models for specific tasks.</li>
+      <li><strong>E-commerce Data Chatbot</strong>: A Streamlit app powered by RAG architecture (LangChain, OpenAI) for
+        intelligent data querying and analysis.</li>
+      <li><strong>Job Application Assistant (Chrome Extension)</strong>: An AI-driven extension that auto-fills job
+        application forms and generates personalized proposals.</li>
     </ul>
+    <p>
 
     <h2>What Drives Me</h2>
     <p>
-      I thrive on learning and iteration. I'm drawn to challenges where tech meets real-world needs — especially when I get to mix logic, data, and a bit of design thinking. I like to work on products that respect users’ time, reduce repetition, and amplify human capability.
+      I thrive on learning and iteration. I'm drawn to challenges where tech meets real-world needs — especially when I
+      get to mix logic, data, and a bit of design thinking. I like to work on products that respect users’ time, reduce
+      repetition, and amplify human capability.
     </p>
 
     <h2>Beyond the Code</h2>
     <p>
-      When I'm not coding, I’m probably exploring maps, testing out new productivity workflows, or diving into longform interviews and documentaries. I enjoy tinkering with ideas, questioning how systems work, and reading up on design, psychology, and history.
+      When I'm not coding, I’m probably exploring maps, testing out new productivity workflows, or diving into longform
+      interviews and documentaries. I enjoy tinkering with ideas, questioning how systems work, and reading up on
+      design, psychology, and history.
     </p>
 
     <p>
-      I'm the kind of person who’ll build a tool just to shave five seconds off a repeated task — and then turn it into a full project if it’s useful for others.
+      I'm the kind of person who’ll build a tool just to shave five seconds off a repeated task — and then turn it into
+      a full project if it’s useful for others.
     </p>
 
     <h2>Let’s Connect</h2>
     <p>
-      Whether you’re looking to collaborate, need a sharp toolmaker on your team, or just want to talk shop — I’d love to hear from you.
+      Whether you’re looking to collaborate, need a sharp toolmaker on your team, or just want to talk shop — I’d love
+      to hear from you.
     </p>
+    <div class="contact-icons">
+      <a href="mailto:oludakevin@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://www.linkedin.com/in/kevin-oluda" target="_blank" title="LinkedIn"><i
+          class="fab fa-linkedin"></i></a>
+      <a href="tel:+25743707128" title="Phone"><i class="fas fa-phone"></i></a>
+      <a href="https://kevin-wk3w.onrender.com/" target="_blank" title="Website"><i class="fas fa-globe"></i></a>
+    </div>
   </div>
 </body>
+
 </html>
